@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+*.pyc
+*.pyo
+*.pyd
+data/runtime/
+data/processed/
+indexes/vector_store/*.joblib
+indexes/vector_store/*.json
+!data/runtime/.gitkeep
+!data/processed/.gitkeep
+!indexes/vector_store/.gitkeep
