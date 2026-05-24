@@ -38,11 +38,19 @@ html, body, [data-testid="stAppViewContainer"] {
     margin-bottom: 1.25rem;
 }
 .ops-kicker {
-    color: #8fb7a6;
-    font-size: .78rem;
+    display: inline-block;
+    color: #9fe4c5;
+    background: #14241d;
+    border: 1px solid #315a49;
+    border-radius: 6px;
+    padding: .35rem .6rem;
+    font-size: .86rem;
     text-transform: uppercase;
-    letter-spacing: .08em;
-    font-weight: 700;
+    letter-spacing: 0;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: .35rem 0 .55rem;
+    text-shadow: 0 1px 0 #050807;
 }
 .ops-title {
     color: #f4fff8;
